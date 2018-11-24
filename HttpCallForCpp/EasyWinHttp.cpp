@@ -75,7 +75,7 @@ std::string EasyWinHttp::Post(std::wstring url, std::wstring header, std::wstrin
 
 	std::string result = "";
 
-	if (bResults)
+ 	if (bResults)
 	{
 		do
 		{
