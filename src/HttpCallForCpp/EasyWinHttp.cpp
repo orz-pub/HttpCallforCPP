@@ -2,7 +2,7 @@
 
 #include "EasyWinHttp.h"
 
-std::string EasyWinHttp::Post(std::wstring url, std::wstring header, std::wstring body)
+std::string EasyWinHttp::Post(const std::wstring& url, const std::wstring& header, const std::wstring& body)
 {
 	DWORD dwSize = 0;
 	DWORD dwDownloaded = 0;

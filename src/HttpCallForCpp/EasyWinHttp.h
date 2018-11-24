@@ -6,5 +6,5 @@ public:
 	EasyWinHttp() = default;
 	virtual ~EasyWinHttp() = default;
 
-	std::string Post(std::wstring url, std::wstring header, std::wstring body);
+	std::string Post(const std::wstring& url, const std::wstring& header, const std::wstring& body);
 };
