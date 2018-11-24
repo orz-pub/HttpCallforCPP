@@ -22,7 +22,7 @@ int main()
 									LR"({"title": "ATT title", "text": "ATT text ~cancle~ *bold*, `mkdown`", "color": "#FF0000"},)"
 									LR"({"text": "```multi line\nlong text\ntest....```", "color": "#00FF00"},)"
 									LR"({"text": "```i have footer\nlong text....```", "color": "#0000FF", "footer": "footer: here: `test`"},)"
-									LR"({"text": "<https://google.com|google>"})"
+									LR"({"text": "<https://google.com|link(english only)>"})"
 								LR"(],)"
 								LR"("mkdown": true)"
 						L"}";
